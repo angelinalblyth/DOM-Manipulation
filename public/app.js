@@ -57,30 +57,35 @@ var addCat = function(name, favouriteFood, catImage){
 
 var createCat = function(){
   var newCat = document.createElement('ul');
+  newCat.className = "ul";
   newCat.classList.add('cat');
   return newCat;
 }
 
 var createCatName = function(newName){
   var catName = document.createElement('li');
+  catName.className = "li";
   catName.innerText = newName;
   return catName;
 }
 
 var createCatsFavouriteFood = function(favouriteFood){
   var catsFavouriteFood = document.createElement('li');
+  catsFavouriteFood.className = "li";
   catsFavouriteFood.innerText = favouriteFood;
   return catsFavouriteFood;
 }
 
 var createCatImageHolder = function(){
   var catImageHolder = document.createElement('li');
+  catImageHolder.className = "li";
   catImageHolder.innerText = '';
   return catImageHolder;
 }
 
 var createCatImage = function(catImage){
   var newCatImage = document.createElement('img');
+  newCatImage.className = "catImages";
   newCatImage.src = catImage;
   return newCatImage;
 }

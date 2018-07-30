@@ -6,3 +6,12 @@
 .red-quote{
   color: red;
 }
+
+.catImages{
+  width: 500px;
+  height: auto;
+}
+
+.li{
+  list-style-type: none;
+}
